@@ -58,7 +58,7 @@
     <h1>Welcome to Couchbase Mobile with Callback!</h1>
     <p>Follow these simple steps to install a couchapp in your Callback appliction.</p>
     <ol>
-      <li>Forward Couchbase Mobile from your device/emulator to your development machine. <pre>adb forard tcp:8984 tcp:<span id="couchbasePort">PORT</span></pre></li>
+      <li>Forward Couchbase Mobile from your device/emulator to your development machine. <pre>adb forward tcp:8984 tcp:<span id="couchbasePort">PORT</span></pre></li>
       <li>From within your couchapp project directory run: <pre>couchapp push . http://localhost:8984/couchapp<pre></li>
       <li>Compact your database. <pre>curl -X POST -H "Content-Type: application/json"  http://localhost:8984/couchapp/_compact</pre></li>
       <li>From within the Android project, copy the Couchbase Mobile database to the assets folder. <pre>adb pull /mnt/sdcard/Android/data/com.couchbase.callback/db/couchapp.couch assets</pre></li>
