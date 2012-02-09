@@ -1,4 +1,4 @@
-VERSION=1.3.0
+VERSION=1.4.1
 PROJECT_PATH=/Users/mschoch/Documents/workspace/Android-Couchbase-Callback/
 PACKAGE=com.couchbase.callback
 ACTIVITY=PhoneGapExample
