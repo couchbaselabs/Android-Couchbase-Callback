@@ -1,5 +1,7 @@
 ## Android Couchbase Callback
 
+[![Join the chat at https://gitter.im/couchbaselabs/Android-Couchbase-Callback](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/couchbaselabs/Android-Couchbase-Callback?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This application provides the fastest way to deploy a <a href="http://couchapp.org/">CouchApp</a> to an Android device using <a href="http://couchbase.org/">Couchbase Mobile</a> and <a href="http://incubator.apache.org/projects/callback.html">Apache Callback (formerly PhoneGap)</a>.
 
 ## Requirements
